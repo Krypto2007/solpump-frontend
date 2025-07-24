@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "chmod +x ./node_modules/.bin/vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,9 +12,6 @@
   },
   "devDependencies": {
     "vite": "^5.4.19"
-  },
-  "engines": {
-    "node": ">=16"
   },
   "description": "",
   "main": "main.js",
